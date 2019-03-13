@@ -3,7 +3,5 @@ console.log('OK');
 
 // Light Gallery
 $('.gallery-1').lightGallery({
-
-    selector: a
-
+    download: false,
 })
