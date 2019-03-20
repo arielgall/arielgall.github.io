@@ -7,3 +7,54 @@ body {
   background-color: aliceblue;
   font-family: 'Amatic SC', cursive;
 }
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.25em;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* Light Gallery */
+body {
+  padding: 2em;
+}
+
+section {
+  background: rosybrown;
+  margin: 1em;
+  width: 300px;
+}
+
+.grid section,
+.list section {
+  animation: jello .5s;
+}
+
+
+/* Default, Grid View Styling */
+.grid section h2,
+.grid section p {
+  display: none;
+}
+
+/* List View */
+.list section img {
+  display: none;
+}
+
+.list section {
+  width: 600px;
+}
