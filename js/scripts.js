@@ -2,6 +2,7 @@
 console.log('OK');
 
 // Light Gallery
+$('#gallery-1').lightGallery();
 
 // Controls for Views
 $('#grid').click( function(){

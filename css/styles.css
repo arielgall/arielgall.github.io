@@ -11,6 +11,11 @@ h1 {
   text-align: center;
   font-size: 3em;
 }
+h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
 ul {
   list-style-type: none;
   display: flex;
@@ -28,33 +33,13 @@ a:link {
 }
 
 /* Light Gallery */
-body {
-  padding: 2em;
+
+#gallery-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em;
 }
 
-section {
-  background: rosybrown;
-  margin: 1em;
-  width: 300px;
-}
-
-.grid section,
-.list section {
-  animation: jello .5s;
-}
-
-
-/* Default, Grid View Styling */
-.grid section h2,
-.grid section p {
-  display: none;
-}
-
-/* List View */
-.list section img {
-  display: none;
-}
-
-.list section {
-  width: 600px;
+#gallery-1 img {
+  height: 400px;
 }
