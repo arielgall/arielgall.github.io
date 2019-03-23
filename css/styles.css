@@ -25,7 +25,9 @@ ul {
 
 p {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.25em;
   text-align: center;
+  padding: 3em;
 }
 
 a:link {
@@ -42,4 +44,13 @@ a:link {
 
 #gallery-1 img {
   height: 400px;
+}
+
+form {
+  display: flex;
+}
+
+.out-link {
+  text-align: center;
+  font-size: 1.5em;
 }
