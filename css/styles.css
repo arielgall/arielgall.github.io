@@ -4,7 +4,8 @@
 
 /* Portfolio Styling */
 body {
-  background-color: aliceblue;
+  background: rgb(214,255,214);
+  background: linear-gradient(0deg, rgba(214,255,214,1) 0%, rgba(163,211,254,1) 100%);
   font-family: 'Amatic SC', cursive;
 }
 h1 {
@@ -48,9 +49,19 @@ a:link {
 
 form {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3.5em 10em;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .out-link {
   text-align: center;
   font-size: 1.5em;
+}
+
+#button {
+  width: 400px;
+  align-self: center;
 }
