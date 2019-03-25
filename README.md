@@ -5,3 +5,6 @@ Winter 2019 Web 2 Starter. Our DIY framework.
 * [Normalize CSS](https://necolas.github.io/normalize.css/)
 * [jQuery Libary](https://jquery.com)
 * [Light Gallery] (http://sachinchoolur.github.io/lightGallery/)
+
+# Help with specific elements
+* [Footer] http://updateyourfooter.com/

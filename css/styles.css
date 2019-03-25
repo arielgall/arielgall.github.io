@@ -31,6 +31,10 @@ p {
   padding: 3em;
 }
 
+.blurb {
+  padding: 4.6em;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -64,4 +68,8 @@ form {
 #button {
   width: 400px;
   align-self: center;
+}
+
+footer {
+  text-align: center;
 }

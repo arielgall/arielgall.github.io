@@ -2,25 +2,33 @@
 console.log('OK');
 
 // Light Gallery
-$('#gallery-1').lightGallery();
+$('#gallery-1').lightGallery({
+
+  mode: 'lg-lollipop',
+  share: false, 
+  controls: false,
+  download: false,
+  counter: false,
+
+});
 
 // Controls for Views
-$('#grid').click( function(){
+//$('#grid').click( function(){
   
     // Remove List
-  $('main').removeClass('list');
+  //$('main').removeClass('list');
   
-  $('main').addClass('grid');
+  //$('main').addClass('grid');
   // console.log('Grid Click');
 
-});
+//});
 
-$('#list').click( function(){
+//$('#list').click( function(){
   
   // Remove Grid
-  $('main').removeClass('grid');
+  //$('main').removeClass('grid');
   
-  $('main').addClass('list');
+  //$('main').addClass('list');
   // console.log('List Click');
   
-});
+//});
