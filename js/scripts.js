@@ -9,7 +9,10 @@ $('#gallery-1').lightGallery({
   controls: false,
   download: false,
   counter: false,
-
+  fullScreen: false,
+  zoom: false,
+  actualSze: false,
+  autoplayControls: false,
 });
 
 // Controls for Views
