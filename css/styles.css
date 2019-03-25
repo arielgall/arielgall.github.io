@@ -6,7 +6,7 @@
 body {
   background: rgb(214,255,214);
   background: linear-gradient(0deg, rgba(214,255,214,1) 0%, rgba(163,211,254,1) 100%);
-  background-repeat: no-repeat;
+  background-size: 100vh;
   font-family: 'Amatic SC', cursive;
 }
 
